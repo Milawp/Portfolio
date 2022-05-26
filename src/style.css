@@ -50,6 +50,9 @@ h2 {
   border-radius: 10px;
   border: 50px solid var(--secondary-color);
 }
+.project-descriotion {
+  padding: 20px;
+}
 
 .btn-branding {
   background: white;
