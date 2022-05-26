@@ -38,7 +38,31 @@ h1 {
   border: 1px solid var(--primary-color);
 }
 
+.featured {
+}
+
 h2 {
   font-weight: bold;
   font-size: 45px;
+}
+
+.workpics {
+  border-radius: 10px;
+  max-width: 75%;
+}
+
+.btn-branding {
+  background: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  font-weight: 500;
+  padding: 10px 45px;
+}
+.btn-branding:hover {
+  background: var(--primary-color);
+  color: white;
+}
+.inquiry {
+  background: var(--secondary-color);
+  border-radius: 10px;
 }
