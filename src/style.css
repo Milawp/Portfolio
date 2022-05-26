@@ -48,7 +48,7 @@ h2 {
 
 .workpics {
   border-radius: 10px;
-  max-width: 75%;
+  border: 50px solid var(--secondary-color);
 }
 
 .btn-branding {
