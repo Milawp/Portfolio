@@ -111,4 +111,10 @@ h2 {
   .about-header h3 {
     font-size: 27px;
   }
+  .carousel {
+    max-width: 100%;
+  }
+  .icon {
+    max-width: 50%;
+  }
 }
