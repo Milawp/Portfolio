@@ -89,8 +89,10 @@ h2 {
 
 .skills-section p {
   font-size: 10px;
-  text-align: center;
   font-weight: bold;
+}
+.icon {
+  max-width: 30%;
 }
 .carousel {
   max-width: 50%;
