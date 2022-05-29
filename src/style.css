@@ -23,6 +23,7 @@ h1 {
 }
 .programmer {
   display: block;
+  max-width: 75%;
 }
 
 .btn-brand {
@@ -38,12 +39,13 @@ h1 {
   border: 1px solid var(--primary-color);
 }
 
-.featured {
-}
-
 h2 {
   font-weight: bold;
   font-size: 45px;
+}
+
+.description h3 {
+  color: var(--primary-color);
 }
 
 .workpics {
@@ -61,6 +63,7 @@ h2 {
   border: 1px solid var(--primary-color);
   font-weight: 500;
   padding: 10px 45px;
+  margin-bottom: 15px;
 }
 .btn-branding:hover {
   background: var(--primary-color);
@@ -77,4 +80,13 @@ h2 {
 
 .inquiry p {
   color: #307672;
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .project-descriotion {
+    text-align: center;
+  }
 }
