@@ -1,6 +1,6 @@
 :root {
   --primary-color: #144d53;
-  --secondary-color: #e4eddb;
+  --secondary-color: #e4eddbaf;
 }
 
 body {
@@ -47,8 +47,9 @@ h2 {
 }
 
 .workpics {
-  border-radius: 10px;
+  border-radius: 5px;
   border: 50px solid var(--secondary-color);
+  max-width: 90%;
 }
 .project-descriotion {
   padding: 20px;
@@ -68,4 +69,12 @@ h2 {
 .inquiry {
   background: var(--secondary-color);
   border-radius: 10px;
+}
+.inquiry h3 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.inquiry p {
+  color: #307672;
 }
