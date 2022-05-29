@@ -7,6 +7,28 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.logo {
+  max-height: 50px;
+}
+nav ul {
+  padding-left: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #35343b97;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
 .hero {
   text-align: left;
   background: var(--secondary-color);
