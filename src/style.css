@@ -12,6 +12,9 @@ body {
   background: var(--secondary-color);
 }
 
+.about-header h3 {
+  font-size: 37px;
+}
 h1 {
   font-size: 87px;
 }
@@ -25,7 +28,9 @@ h1 {
   display: block;
   max-width: 75%;
 }
-
+.profile-photo {
+  border-radius: 10px;
+}
 .btn-brand {
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -88,5 +93,18 @@ h2 {
   }
   .project-descriotion {
     text-align: center;
+  }
+  .about-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about-header h1 {
+    font-size: 65px;
+  }
+  .about-header h2 {
+    font-size: 35px;
+  }
+  .about-header h3 {
+    font-size: 27px;
   }
 }
