@@ -99,6 +99,15 @@ h2 {
   display: block;
   margin: 0 auto;
 }
+.work-container h1 {
+  font-size: 70px;
+}
+.work-container h3 {
+  color: var(--primary-color);
+}
+.work-sample {
+  max-width: 80%;
+}
 @media (max-width: 960px) {
   .hero h1 {
     font-size: 60px;
@@ -126,5 +135,11 @@ h2 {
     max-width: 50%;
   }
   .skills-section p {
+  }
+  .work-screenshot a {
+    font-size: 8px;
+  }
+  .work-sample {
+    border: 30px solid var(--secondary-color);
   }
 }
