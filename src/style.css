@@ -86,6 +86,12 @@ h2 {
 .inquiry p {
   color: #307672;
 }
+
+.skills-section p {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+}
 .carousel {
   max-width: 50%;
   display: block;
@@ -116,5 +122,7 @@ h2 {
   }
   .icon {
     max-width: 50%;
+  }
+  .skills-section p {
   }
 }
