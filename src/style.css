@@ -1,6 +1,6 @@
 :root {
   --primary-color: #144d53;
-  --secondary-color: #e4eddbaf;
+  --secondary-color: #87adb0af;
 }
 
 body {
@@ -9,6 +9,7 @@ body {
 
 .logo {
   max-height: 50px;
+  border-radius: 90%;
 }
 nav ul {
   padding-left: 0;
@@ -51,11 +52,11 @@ h1 {
   max-width: 75%;
 }
 .profile-photo {
-  border-radius: 10px;
+  border-radius: 20%;
 }
 .btn-brand {
   background: var(--primary-color);
-  color: var(--secondary-color);
+  color: whitesmoke;
   font-weight: 200;
   padding: 15px 30px;
 }
@@ -136,6 +137,18 @@ h2 {
 }
 .contact-img {
   max-width: 70%;
+}
+.contact-info h3 {
+  color: var(--primary-color);
+}
+.contact-info a {
+  color: #1e3034b0;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media (max-width: 960px) {
