@@ -130,6 +130,10 @@ h2 {
 .work-sample {
   max-width: 80%;
 }
+.contact h1 {
+  text-align: center;
+}
+
 .contact-info {
   background: var(--secondary-color);
   border-radius: 10px;
@@ -202,6 +206,10 @@ h2 {
   }
   .work-container h1 {
     font-size: 43px;
+  }
+  .contact h1 {
+    font-size: 75px;
+    text-align: center;
   }
   .open-sourced p {
     font-size: 9px;
