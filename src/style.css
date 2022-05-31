@@ -97,17 +97,16 @@ h2 {
   background: var(--primary-color);
   color: white;
 }
-.inquiry {
+.contact-box {
   background: var(--secondary-color);
-  border-radius: 10px;
+  padding: 30px;
+  border-radius: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
-.inquiry h3 {
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-.inquiry p {
-  color: #307672;
+.footer-container-about {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .skills-section p {
@@ -152,12 +151,18 @@ h2 {
 }
 
 .social-icons {
-  border: 10px solid var(--secondary-color);
   border-radius: 100%;
   color: var(--primary-color);
   text-decoration: none;
   font-size: 25px;
   background-color: var(--secondary-color);
+  padding: 10px;
+  margin: 0 27px;
+  transition: all 100ms ease-in-out;
+}
+.social-icons:hover {
+  color: whitesmoke;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 960px) {
