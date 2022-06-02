@@ -80,6 +80,7 @@ h2 {
   border-radius: 5px;
   border: 50px solid var(--secondary-color);
   max-width: 90%;
+  max-height: 90%;
 }
 .project-descriotion {
   padding: 20px;
