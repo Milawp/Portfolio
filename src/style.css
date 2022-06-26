@@ -86,6 +86,10 @@ h2 {
   padding: 20px;
 }
 
+.react-work h3 {
+  color: var(--primary-color);
+}
+
 .btn-branding {
   background: white;
   color: var(--primary-color);
