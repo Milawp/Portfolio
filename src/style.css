@@ -81,7 +81,7 @@ h2 {
   border-radius: 5px;
   border: 50px solid var(--secondary-color);
   max-width: 90%;
-  max-height: 90%;
+  max-height: 700px;
 }
 .project-descriotion {
   padding: 20px;
@@ -133,8 +133,8 @@ h2 {
 .work-container h3 {
   color: var(--primary-color);
 }
-.work-sample {
-  max-width: 80%;
+.weatherapp {
+  max-width: 83%;
 }
 .contact h1 {
   text-align: center;
